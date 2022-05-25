@@ -20,12 +20,52 @@ DevOps General Questions:
       The project is now ready for implementing DevOps by using version control/integration/testing/deployment/delivery and monitoring followed step by step.
     
 4. What is the role of configuration management in DevOps?
+      -It helps with the administration and management of multiple servers and maintains the integrity of the entire infrastructure.
+      -Enables management of and changes to multiple systems.
+      -Configuration as code ex) Ansible, chef, puppet     
+      
+
 5. How does continuous monitoring help you maintain the entire architecture of the system?
+      Continuous monitoring in DevOps is a process of detecting, identifying, and reporting any faults or threats in the entire infrastructure of the system
+      including servers, applications and any other resources
+      Monitoring tools - Cloudwatch, X-ray, Newrelic, Appdynamics, splunk, ELK
+      https://www.headspin.io/blog/what-is-continuous-monitoring-in-devops
+      
 6. Name three important DevOps KPIs.
+      The three important KPIs are as follows:
+            Meantime to failure recovery - This is the average time taken to recover from a failure.
+            Deployment frequency - The frequency in which the deployment occurs. 
+            Percentage of failed deployments - The number of times the deployment fails.
+           https://www.appdynamics.com/topics/devops-metrics-and-kpis
+           
 7. What are the benefits of using version control?
+      - Team members collaboration, they can work independently through branches
+      - failure recovery - easy to rollback to previous version
+      - Stores the code in Distributed system
+      
 8. Can you explain the “Shift left to reduce failure” concept in DevOps?
+      Shift left is a DevOps idea for improving security, performance, and other factors. 
+      Let us take an example: if we look at all of the processes in DevOps, we can state that security is tested prior to the deployment step.
+      We can add security in the development phase, which is on the left, by employing the left shift method. 
+      [will be depicted in a diagram] We can integrate with all phases, including before development and during testing, not just development. 
+      This most likely raises the security level by detecting faults at an early stage.
+      
 9. What is the Blue/Green Deployment Pattern?
+      A blue/green deployment is a deployment strategy in which you create two separate, but identical environments.
+      One environment (blue) is running the current application version and one environment (green) is running the new application version.
+      
+      Risk :
+      Quality assurance and user acceptance testing may not identify all of the anomalies or regressions either,
+      and so shifting all user traffic at once can present risks. 
+      Pros:Faster rollback
+      Cons:Expensive
+      
 10. What is continuos and automation testing, its benefits and and how to automate testing in devops life cycle? 
+      Continuous Testing : Development teams to receive immediate feedback, every build is continually tested in this manner. (Sonarqube)
+      Automation Testing : Process of automating a manual procedure in order to test an application or system (Selenium)
+      Every time a change is made in the code, Jenkins-like Continuous Integration tools 
+      will grab it from this common repository and deploy it for Continuous Testing, which is done by tools like Selenium.
+      
 11. What is CI & CD ? 
 12. What is CBD in DevOps?
 13. What is Dogpile effect? How can it be prevented?
