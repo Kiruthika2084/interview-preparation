@@ -67,9 +67,35 @@ DevOps General Questions:
       will grab it from this common repository and deploy it for Continuous Testing, which is done by tools like Selenium.
       
 11. What is CI & CD ? 
+      Continuous Integration/ Continuous Delivery . 
+      By automating the process, the objective is to minimize human error and maintain a consistent process for how software is released.
+      Tools that are included in the pipeline could include compiling code, unit tests, code analysis, security, and binaries creation.
+      Mention what are all the tools used.
+      
 12. What is CBD in DevOps?
+      CBD stands for Component-Based Development. It is a unique way for approaching product development.
+      Here, developers keep looking for existing well-defined, tested, and verified components of code and relieve the developer of developing from scratch.
+      DRY principle, Reusability
+      Example : Terraform modules
+      
 13. What is Dogpile effect? How can it be prevented?
+      It is referred to as that event that occurs when the cache expires (or invalidated) and multiple requests are hit to the website at the same time.
+      Dogpile effect can be prevented using semaphore lock. If value expired, first process acquires a lock and starts generating new value.
+      All the subsequent requests check if lock is acquired and serve stale content. After new value is generated, lock is released.
+
 14. How do all these devops tools work together?
+      Github -> Jenkins (Sonarqube,Maven) -> JFROG -> Udeploy(ansible)
+      
 15. What are the anti-patterns of DevOps?
+      An anti-pattern is a pattern that you use to fix a short-term problem at the expense of your long-term goals
+      If a pattern commonly adopted by others does not work for your organization and you continue to blindly follow it, you are essentially adopting an anti-pattern.
+      continuous build (CB) is one such example. It's what you get when you set up a continuous integration (CI) 
+      server without actually having a unit test suite or running code quality analysis on the codebase. 
+      
 16. Latest trends in Devops ? https://staragile.com/blog/devops-trends , https://technostacks.com/blog/devops-trends
+      Serverless Architecture, 
+      Everything-as-code
+      Automation,
+      Containers,
+      Devsecops (Shift-left) -?????
 
