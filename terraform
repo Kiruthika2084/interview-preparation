@@ -1,1 +1,24 @@
-
+WHat is IAC, What are the reasons to choose Terraform for DevOps?
+What is State file?
+How does Terraform work?
+What do you understand by Terraform Backend?
+What is a provider in Terraform & who maintains terraform providers?
+What is Sentinel?
+What do you understand by modules in Terraform?
+How can we export data from one module to another?
+How can you define dependencies in Terraform?
+What are Provisioners in Terraform?
+What is the external data block in Terraform?
+How can two people using the Terraform cloud can create two different sets of infrastructure using the same working directory?
+What happens when multiple engineers start deploying infrastructure using the same state file?
+Infra & state file created. When State File is deleted, will infra gets created NEW?
+What is a null resource in Terraform?
+How can you use the same provider in Terraform with different configurations?
+You have a Terraform configuration file with no resources. What happens when you run the terraform apply command?
+What happens if a resource was created successfully in terraform but failed during provisioning?
+Which value of the TF_LOG variable provides the MOST verbose logging?
+How can you import existing resources under Terraform Management?
+Which command can be used to reconcile the Terraform state with the actual real-world infrastructure?
+Which command can be used to switch between workspaces when using Terraform Cloud?
+Terraform validate & Terraform fmt.
+Important terraform commands
